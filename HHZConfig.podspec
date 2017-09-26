@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HHZConfigs"
-  s.version      = "0.0.1"
+  s.version      = "0.0.1.1"
   s.summary      = "配置信息"
 
   # This description is used to generate tags and improve search results.
