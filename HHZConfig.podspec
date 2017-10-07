@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HHZConfigs"
-  s.version      = "0.0.1.2"
+  s.version      = "0.0.1.3"
   s.summary      = "配置信息"
 
   # This description is used to generate tags and improve search results.
@@ -93,6 +93,12 @@ Pod::Spec.new do |s|
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
+
+  s.subspec 'HHZConfigs' do |one|
+      one.subspec 'tool' do |three|
+        three.source_files = 'HHZConfigs/HHZConfigTool.{h,m}'
+      end
+  end
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
