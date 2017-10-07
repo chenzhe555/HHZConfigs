@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "HHZConfig.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    CGFloat a = 100 + kTopBarHeight;
+    CGFloat b = 100 + kTopStateBarHeight;
+    CGFloat c = 100 + kTopNavBarHeight;
+    CGFloat d = 100 + kTabBarHeight;
+    NSLog(@"%f----%f----%f---%f",a,b,c,d);
     return YES;
 }
 
