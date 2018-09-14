@@ -94,5 +94,7 @@
 #endif
 #endif
 
+#define Weak_Quote(obj) __weak typeof(obj) weak##obj = obj;
+
 
 #define Block_Excute(block,...) if(block) {block(__VA_ARGS__);};
